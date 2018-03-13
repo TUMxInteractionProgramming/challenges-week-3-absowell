@@ -17,35 +17,37 @@
 <div id="channels">
     <h1>
         <!-- #3 #channels #moocus the talkative duck-->
-        <img src="http://ip.lfe.mw.tum.de/sections/moocus.png" alt="Moocus, the chatty duck!" style="height: 56px;">
+        <img id="moocus" src="http://ip.lfe.mw.tum.de/sections/moocus.png" alt="Moocus, the chatty duck!">
         chatter|app
     </h1>
 
     <!-- #3 #channels #list is much better, than headlines or paragraphs... -->
     <ul>
-        <li>#Yummy
+        <li>#Science
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
         </li>
 
         <!-- #4 #channel is #highlighted -->
         <li class="selected">
-            #SevenContinents
+            #Art
             <!-- #3 #channels #favorite this is starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
         </li>
-        <li>#KillerApp
+        <li>#Literature
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
         </li>
-        <li>#FirstPersonOnMars
+        <li>#Music
             <!-- #3 #channels #favorite this is starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
         </li>
-        <li>#Octoberfest
+        <li>#History
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
+            <span class="channel-meta"><img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"><img src="http://ip.lfe.mw.tum.de/sections/chevron-right.png" alt="arrow"></span> 
         </li>
+        
     </ul>
 
     <!-- #3 #tab-bar #container -->
@@ -56,12 +58,12 @@
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="Bulb">
             New
-        </button>
+        </button> 
         <button>
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/fire.png" alt="Hot">
             Trending
-        </button>
+        </button> 
         <button>
             <!-- #3 #tab-bar #images -->
             <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="Star">
@@ -73,26 +75,28 @@
 <!-- #4 #one #page -->
 <div id="chat">
     <h1>
-        #SevenContinents
+        #Art
         <small>by
-            <strong>cheeses.yard.applies</strong>
+            <strong>landed.polite.pints</strong>
         </small>
     </h1>
-
+<div id="message-area">
     <!-- #3 #chat #container -->
     <!-- #4 assign a #class to all your #messages to address them with css -->
     <!-- #4 apply a class "own" to your #messages to align them separately with #margins -->
     <div class="message own">
         <h3>
             <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/cheeses.yard.applies" target="_blank">
-                <strong>cheeses.yard.applies</strong>
+            <a href="http://w3w.co/landed.polite.pints" target="_blank">
+                <strong>landed.polite.pints</strong>
             </a>
-            Wed, June 20th, 13:37
+            Tue, Feb 26th, 08:25
             <em>15 min. left</em>
         </h3>
-        <p>What's the place you folks call home?</p>
-        <button>+5 min.</button>
+        <p>Has everyone seen the new Obama portraits?
+            <button>+5 min.</button>
+        </p>
+
     </div>
 
     <!-- #3 #chat #container -->
@@ -100,14 +104,16 @@
     <div class="message">
         <h3>
             <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/truck.cotton.zone" target="_blank">
-                <strong>truck.cotton.zone</strong>
+            <a href="http://w3w.co/lively.raft.couches">
+                <strong>lively.raft.couches</strong>
             </a>
-            Wed, June 20th, 13:39
-            <em>4 min. left</em>
+            Tue, Feb 26th, 08:27
+            <em>10 min. left</em>
         </h3>
-        <p>BRISBANE! Hang loose!</p>
-        <button>+5 min.</button>
+        <p>I love them!
+            <button>+5 min.</button>
+        </p>
+        
     </div>
 
     <!-- #3 #chat #container -->
@@ -115,14 +121,16 @@
     <div class="message">
         <h3>
             <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/thus.best.dishes" target="_blank">
-                <strong>thus.best.dishes</strong>
+            <a href="http://w3w.co/impact.curry.today" target="_blank">
+                <strong>impact.curry.today</strong>
             </a>
-            Wed, June 20th, 14:02
-            <em>12 min. left</em>
+            Tue, Feb 26th, 08:34
+            <em>6 min. left</em>
         </h3>
-        <p>The big apple.</p>
-        <button>+5 min.</button>
+        <p>They are such a refreshing change from the usual boring portraits. 
+            <button>+5 min.</button>
+        </p>
+        
     </div>
 
     <!-- #3 #chat #container -->
@@ -130,45 +138,21 @@
     <div class="message">
         <h3>
             <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/driveway.helper.magazine" target="_blank">
-                <strong>driveway.helper.magazine</strong>
+            <a href="http://w3w.co/doubles.crew.stays" target="_blank">
+                <strong>doubles.crew.stays</strong>
             </a>
-            Wed, June 20th, 14:02
+            Tue, Feb 26th, 10:04
             <em>7 min. left</em>
         </h3>
-        <p>Eu sou um Cariocas.</p>
-        <button>+5 min.</button>
+        <p>Wooooo! Art! 
+            <button>+5 min.</button>
+        </p>
+        </div>
     </div>
+        <div id="chat-bar"><button id="emojis-button"><img src="http://ip.lfe.mw.tum.de/sections/smile-o.png"></button><div id="emojis">&#x1F601; &#x1F602; &#x1F603; &#x1F604; &#x1F605; &#x1f607; &#x1f608; &#x1f60b; &#x1f60d; &#x1f60e; &#x1f61b; &#x1f610; &#x1f616; &#x1f61e; &#x1f622; &#x1f631;</div></div>
+        
+    
 
-    <!-- #3 #chat #container -->
-    <!-- #4 #messages #class -->
-    <div class="message">
-        <h3>
-            <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/escapes.pitch.saucepan" target="_blank">
-                <strong>escapes.pitch.saucepan</strong>
-            </a>
-            Wed, June 20th, 14:07
-            <em>14 min. left</em>
-        </h3>
-        <p>Greetings from the western cape!</p>
-        <button>+5 min.</button>
-    </div>
-
-    <!-- #3 #chat #container -->
-    <!-- #4 #messages #class -->
-    <div class="message">
-        <h3>
-            <!-- #3 #chat #location points to w3w in a new tab -->
-            <a href="http://w3w.co/meanings.identity.pays" target="_blank">
-                <strong>meanings.identity.pays</strong>
-            </a>
-            Wed, June 20th, 04:08
-            <em>15 min. left</em>
-        </h3>
-        <p>北京</p>
-        <button>+5 min.</button>
-    </div>
 </div>
 
 </body>
