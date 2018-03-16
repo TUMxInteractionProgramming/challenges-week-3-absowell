@@ -46,6 +46,13 @@ h1 {
     font-size: 20px;
     font-weight: 20;
 }
+h1 a{
+    color: white;
+}
+#active-star{
+    position: absolute;
+    right: 16px;
+}
 #moocus {
     height: 56px;
     position: absolute;
@@ -157,6 +164,7 @@ li img {
     overflow:auto;
     font-size: 24px;
     text-align: left;
+    display:none;
 }
 
 /* MESSAGES */
